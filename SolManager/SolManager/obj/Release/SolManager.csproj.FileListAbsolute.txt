@@ -1,0 +1,16 @@
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\SolManager.exe
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\SolManager.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.SharePoint.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.SharePoint.Search.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.Web.CommandUI.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.BusinessData.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.SharePoint.Security.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.SharePoint.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.SharePoint.Search.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.BusinessData.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Release\Microsoft.SharePoint.Security.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Release\SolManager.Form1.resources
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Release\SolManager.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Release\SolManager.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Release\SolManager.exe
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Release\SolManager.pdb

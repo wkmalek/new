@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b0bd5d70-db0b-44a3-8a8b-c073b4295109" solutionId="b0bd5d70-db0b-44a3-8a8b-c073b4295109" resetWebServer="false" name="GalleryWebPar" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a86ba5f1-611e-46ff-8847-b3be1bb786a3" />
+    <featureReference itemId="ea3935d2-df6a-4f40-aebc-885d68d83052" />
+  </features>
+</package>

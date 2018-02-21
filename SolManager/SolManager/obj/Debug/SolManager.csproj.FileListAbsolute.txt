@@ -1,0 +1,17 @@
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\SolManager.exe
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\SolManager.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.SharePoint.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.SharePoint.Search.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.Web.CommandUI.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.BusinessData.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.SharePoint.Security.dll
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.SharePoint.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.SharePoint.Search.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.BusinessData.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\bin\Debug\Microsoft.SharePoint.Security.xml
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Debug\SolManager.Form1.resources
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Debug\SolManager.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Debug\SolManager.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Debug\SolManager.exe
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Debug\SolManager.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\SolManager\SolManager\obj\Debug\SolManager.csprojResolveAssemblyReference.cache

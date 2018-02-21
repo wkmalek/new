@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="GalleryWebPart BigImage" Id="1d198239-246e-4927-aa01-d8b8de0f1e8a" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="BigImage\Elements.xml" />
+    <ElementFile Location="BigImage\BigImage.webpart" />
+  </ElementManifests>
+</Feature>

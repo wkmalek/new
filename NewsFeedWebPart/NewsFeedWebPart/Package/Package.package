@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0ed976ba-6214-484d-9324-bfc964c18f80" solutionId="0ed976ba-6214-484d-9324-bfc964c18f80" resetWebServer="false" name="NewsFeedWebPart" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="99adc240-c29d-4b59-98b0-2ebc209ee6b4" />
+  </features>
+</package>

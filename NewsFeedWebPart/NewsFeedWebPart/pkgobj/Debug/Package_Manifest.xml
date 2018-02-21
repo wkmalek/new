@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0ed976ba-6214-484d-9324-bfc964c18f80" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="NewsFeedWebPart.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="NewsFeedWebPart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f4368428d954445a" Namespace="NewsFeedWebPart.Default" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="NewsFeedWebPart_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

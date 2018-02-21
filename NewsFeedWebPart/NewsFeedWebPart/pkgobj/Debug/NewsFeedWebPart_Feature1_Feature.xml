@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="484309dd-7f14-43e6-87be-305dee0e3541" Scope="Site" Title="NewsFeedWebPart Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Default\Elements.xml" />
+    <ElementFile Location="Default\Default.webpart" />
+  </ElementManifests>
+</Feature>

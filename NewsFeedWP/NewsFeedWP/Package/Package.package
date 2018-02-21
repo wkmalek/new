@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7fe3ed30-b9b6-4ec6-9bd4-934b63ab29e8" solutionId="7fe3ed30-b9b6-4ec6-9bd4-934b63ab29e8" resetWebServer="false" name="NewsFeedWP" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="cd3f285e-99f5-483f-b97d-27e1742163bc" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="561b1969-8090-403e-a5dc-7e8e8831b424" />
+    <projectItemReference itemId="f6d628d7-75e2-46f9-9a0c-f55ad6ddc167" />
+  </projectItems>
+</package>

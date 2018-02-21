@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Base news (0x0100AC3D3E7945B7BD4FB8799F324E44FBCE) -->
+  <ContentType ID="0x0100AC3D3E7945B7BD4FB8799F324E44FBCE000BCE6EF12B7B48E5A3001F3810B2F2F2"
+               Name="ContentType1"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+    </FieldRefs>
+  </ContentType>
+</Elements>

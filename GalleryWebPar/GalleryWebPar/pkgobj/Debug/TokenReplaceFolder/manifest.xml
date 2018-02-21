@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b0bd5d70-db0b-44a3-8a8b-c073b4295109" SharePointProductVersion="14.0">
+  <!--<Assemblies>
+    <Assembly Location="GalleryWebPar">
+      <SafeControls />
+    </Assembly>
+  </Assemblies>-->
+  <Assemblies>
+    <Assembly Location="GalleryWebPar.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="GalleryWebPar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=373875a406b6ab14" Namespace="GalleryWebPar.VisualWebPart1" TypeName="*" />
+        <SafeControl Assembly="GalleryWebPar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=373875a406b6ab14" Namespace="GalleryWebPar.BigImage" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="GalleryWebPar_Gallery\Feature.xml" />
+    <FeatureManifest Location="GalleryWebPar_BigImage\Feature.xml" />
+  </FeatureManifests>
+</Solution>

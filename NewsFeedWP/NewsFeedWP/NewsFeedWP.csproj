@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A770568E-BE2F-43E9-B8D5-D062B199AB06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewsFeedWP</RootNamespace>
+    <AssemblyName>NewsFeedWP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PostOnListViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NewsFeed\VisualWebPart1.ascx.cs">
+      <DependentUpon>NewsList</DependentUpon>
+    </Compile>
+    <Compile Include="NewsFeed\NewsList.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewsList</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ContentType1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{34e9aaec-196c-4e39-a290-9f313edededd}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\NewsFeed\NewsFeed.feature">
+      <FeatureId>{cd3f285e-99f5-483f-b97d-27e1742163bc}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{561b1969-8090-403e-a5dc-7e8e8831b424}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{7fe3ed30-b9b6-4ec6-9bd4-934b63ab29e8}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="NewsFeed\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c621fcc-a977-4f77-b54a-d8f3bb7d53db}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsFeed\NewsList.webpart" />
+    <None Include="SiteColumn1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2bf00e0e-e5fe-42d1-a4ca-d1bcfecc8694}</SharePointProjectItemId>
+    </None>
+    <None Include="test\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6d628d7-75e2-46f9-9a0c-f55ad6ddc167}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContentType1\Elements.xml" />
+    <Content Include="Features\NewsFeed\NewsFeed.Template.xml">
+      <DependentUpon>NewsFeed.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Layouts\NewsFeedWP\images\200x150.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\ad125x125.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\ad468x60.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\details.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\divider.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\header1.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\header2.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\headerbg.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\logo.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\navigation.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\readmore.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\search.gif" />
+    <Content Include="Layouts\NewsFeedWP\images\_featured.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_flickr1.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_flickr2.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_flickr3.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_flickr4.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_flickr5.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_flickr6.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_thumb1.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_thumb2.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_thumb3.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_thumb4.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_thumb5.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_thumb6.jpg" />
+    <Content Include="Layouts\NewsFeedWP\images\_video.jpg" />
+    <Content Include="NewsFeed\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Layouts\NewsFeedWP\style.css" />
+    <Content Include="SiteColumn1\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="test\default.aspx" />
+    <Content Include="test\onet.xml" />
+    <Content Include="test\webtemp_test.xml" />
+    <None Include="NewsFeed\NewsList">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NewsList.ascx.g.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="GalleryWebPart Gallery" AlwaysForceInstall="TRUE" AutoActivateInCentralAdmin="TRUE" Id="f3dffe4d-4ea6-4acd-aa74-64be70218bf2" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="Gallery\Elements.xml" />
+    <ElementFile Location="Gallery\Gallery.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7fe3ed30-b9b6-4ec6-9bd4-934b63ab29e8" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="NewsFeedWP.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="NewsFeedWP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=10ad000354663770" Namespace="NewsFeedWP.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\NewsFeedWP\images\200x150.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\ad125x125.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\ad468x60.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\details.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\divider.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\header1.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\header2.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\headerbg.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\logo.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\navigation.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\readmore.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\search.gif" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_featured.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_flickr1.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_flickr2.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_flickr3.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_flickr4.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_flickr5.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_flickr6.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_thumb1.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_thumb2.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_thumb3.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_thumb4.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_thumb5.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_thumb6.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\images\_video.jpg" />
+    <TemplateFile Location="Layouts\NewsFeedWP\style.css" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="NewsFeedWP_NewsFeed\Feature.xml" />
+  </FeatureManifests>
+</Solution>

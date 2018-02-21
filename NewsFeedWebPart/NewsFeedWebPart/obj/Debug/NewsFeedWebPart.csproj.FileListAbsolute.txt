@@ -1,0 +1,14 @@
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\NewsFeedWebPart.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\NewsFeedWebPart.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.SharePoint.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.SharePoint.Search.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.Web.CommandUI.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.BusinessData.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.SharePoint.Security.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.SharePoint.xml
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.SharePoint.Search.xml
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.BusinessData.xml
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\bin\Debug\Microsoft.SharePoint.Security.xml
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\obj\Debug\NewsFeedWebPart.dll
+c:\users\administrator\documents\visual studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\obj\Debug\NewsFeedWebPart.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\NewsFeedWebPart\NewsFeedWebPart\obj\Debug\NewsFeedWebPart.csprojResolveAssemblyReference.cache
